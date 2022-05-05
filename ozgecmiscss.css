@@ -5,31 +5,27 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-body
-{
-    background-image: url(images/background.jpg)
-}
 
-.container
+body
 {
     background-position: center;
     background-size: cover;
     background-image: url(images/background.jpg)
 }
 
-.menu
+nav
 {
-    background: #ffffff00;
+    background: #00000070;
     text-align: center;
 }
 
-.menu ul
+nav ul
 {
     display: inline-flex;
     list-style: none;
 }
 
-.menu ul li
+nav ul li
 {
     border: solid 0px;
     border-radius: 5px;
@@ -39,13 +35,13 @@ body
     font-size: large;
 }
 
-.menu ul li a
+nav ul li a
 {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.menu ul li:hover
+nav ul li:hover
 {
     font-size: larger;
     transition-delay: initial;
@@ -56,83 +52,32 @@ body
     background-color: rgba(0, 0, 0, 0.534);
 }
 
-.baslik h1
+header h1
 {
     text-align: center;
     color: #fff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
     padding: 50px;
-    font-size:xx-large
 }
 
-.hakkimda img
+section h4
 {
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    padding: 50px;
+}
+
+.sakarya img
+{
+    float: left;
     margin: 10px;
     margin-right: 100px;
-    float: left;
-    width: 500px;
-    height: 275px;
-}
-
-.hakkimda p
-{
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.futbol img
-{
-    margin: 10px;
-    margin-left: 80px;
-    float: right;
-    width: 500px;
-    height: 250px;
-}
-
-.futbol p
-{
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.starwars img
-{
-    margin: 10px;
-    margin-right: 100px;
-    float: left;
-    width: 500px;
-    height: 250px;
-}
-
-.starwars p
-{
-    
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.masatenisi img
-{
-    margin: 10px;
-    margin-left: 100px;
-    float: right;
     width: 500px;
     height: 230px;
 }
 
-.masatenisi p
+article
 {
     background: #00000054;
     color: rgb(255, 255, 255);
@@ -140,6 +85,42 @@ body
     padding: 90px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+
+.erzincan img
+{
+    float: right;
+    margin: 10px;
+    margin-left: 100px;
+    width: 500px;
+    height: 230px;
+}
+
+.ankara img
+{
+    float: left;
+    margin: 10px;
+    margin-right: 100px;
+    width: 500px;
+    height: 250px;
+}
+
+.lise img
+{
+    float: right;
+    margin: 10px;
+    margin-left: 100px;
+    width: 500px;
+    height: 230px;
+}
+
+.universite img
+{
+    float: left;
+    margin: 10px;
+    margin-right: 100px;
+    width: 500px;
+    height: 250px;
 }
 
 footer ul

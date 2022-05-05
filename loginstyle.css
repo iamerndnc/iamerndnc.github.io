@@ -8,7 +8,8 @@
 
 body
 {
-    background: #00000011 url(images/3185113.jpg);
+  background: #00000011 url(images/background.jpg);
+  background-size: cover;
   font-family: Assistant, sans-serif;
   display: flex;
   min-height: 90vh;
