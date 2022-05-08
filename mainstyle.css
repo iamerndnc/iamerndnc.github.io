@@ -2,9 +2,10 @@
 {
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     box-sizing: border-box;
 }
+
 body
 {
     background-image: url(images/background.jpg)
@@ -17,35 +18,39 @@ body
     background-image: url(images/background.jpg)
 }
 
-.menu
+nav
 {
-    background: #ffffff00;
+    background: #00000070;
     text-align: center;
 }
 
-.menu ul
+nav ul
 {
     display: inline-flex;
     list-style: none;
 }
 
-.menu ul li
+nav ul li
 {
     border: solid 0px;
     border-radius: 5px;
-    width: 225px;
-    margin: 0;
+    width: 100%;
+    max-height: 75px;
+    margin: 50px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 0;
     padding: 30px;
     font-size: large;
 }
 
-.menu ul li a
+nav ul li a
 {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.menu ul li:hover
+nav ul li:hover
 {
     font-size: larger;
     transition-delay: initial;
@@ -60,7 +65,7 @@ body
 {
     text-align: center;
     color: #fff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: auto;
     padding: 50px;
     font-size:xx-large
@@ -71,16 +76,18 @@ body
     margin: 10px;
     margin-right: 100px;
     float: left;
-    width: 500px;
-    height: 275px;
+    width: 50%;
+    max-width: 500px;
+    max-height: 230px;
 }
 
 .hakkimda p
 {
     background: #00000054;
     color: rgb(255, 255, 255);
-    padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -89,7 +96,8 @@ body
     margin: 10px;
     margin-left: 80px;
     float: right;
-    width: 500px;
+    width: 40%;
+    max-width: 100%;
     height: 250px;
 }
 
@@ -99,7 +107,7 @@ body
     color: rgb(255, 255, 255);
     margin: auto;
     padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -108,8 +116,9 @@ body
     margin: 10px;
     margin-right: 100px;
     float: left;
-    width: 500px;
-    height: 250px;
+    width: 30%;
+    max-width: 500px;
+    max-height: 250px;
 }
 
 .starwars p
@@ -119,7 +128,7 @@ body
     color: rgb(255, 255, 255);
     margin: auto;
     padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -128,8 +137,9 @@ body
     margin: 10px;
     margin-left: 100px;
     float: right;
-    width: 500px;
-    height: 230px;
+    width: 30%;
+    max-width: 500px;
+    height: auto;
 }
 
 .masatenisi p
@@ -138,7 +148,7 @@ body
     color: rgb(255, 255, 255);
     margin: auto;
     padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -158,7 +168,7 @@ footer ul li
 {
     border: solid 0px;
     border-radius: 5px;
-    width: 225px;
+    width: 100%;
     margin: auto;
     padding: 10px;
     font-size: large;
