@@ -1,0 +1,41 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #fff;
+}
+
+
+.active 
+{
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+
+footer ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+
+footer
+{
+    background: #fff;
+    text-align: center;
+}
+
+footer ul li
+{
+    border: solid 0px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+}
