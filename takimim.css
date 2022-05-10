@@ -8,15 +8,35 @@
 
 body
 {
-    background-color: #fff;
+    background-color: #74b9ff;
 }
 
+.nav-item
+{
+    padding-left: 50px;
+}
+
+.nav-link
+{
+    color: #fff;
+}
 
 .active 
 {
     background-color: rgba(0, 0, 0, 0.534);
 }
 
+h2
+{
+    text-align: center;
+    color: #fff;
+}
+
+article
+{
+    margin: 50px;
+    color:#fff;
+}
 
 footer ul
 {
