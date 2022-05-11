@@ -1,95 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
-    <link rel="stylesheet" href="mainstyle.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-<section id="anasayfa">
-    <div class="container">
-
-        <nav>
-            <ul>
-                <li class="active"><a href="main.html">Anasayfa</a></li>
-                <li><a href="ozgecmis.html">Özgeçmiş</a></li>
-                <li><a href="sehrim.html">Şehrim</a></li>
-                <li><a href="#">Takımımız</a></li>
-                <li><a href="#">İlgi Alanlarım</a></li>
-                <li><a href="#">İletişim</a></li>
-            </ul>
-        </nav>
-        <div>
-            <div class="baslik">
-
-                <h1>Eren Dinç Kimdir?</h1>
-
-            </div>
-           
-            <div class="hakkimda">
-
-                <a href="https://www.arifiye.bel.tr/"> <img src="images/arifiye.jpg"></a>
-                
-                <p>
-                    Merhabalar. Ben Eren Dinç. 25 Mayıs 2002 Sakarya doğumluyum ama babamın mesleğinden dolayı 5 farklı yerde yaşadım. İlkokulu Erzincan'da, ortaokulu Ankara'da, liseyi ise Sakarya'da okudum ve üniversite için de liseyi okuduğum şehir olan Sakarya'yı seçtim. Sakarya Üniversitesi'nde Bilgisayar Mühendisliği 1.Sınıf öğrencisiyim.
-                </p>
-
-            </div>
-
-            <br></br>
-            <br></br>
-
-            <div class="futbol">
-
-                <a href="https://www.transfermarkt.com.tr/manchester-united/startseite/verein/985/saison_id/2008"> <img src="images/manchester.jpg"></a>
-
-                <p>
-                    Futbol maçlarını çok fazla takip etmesem de denk geldiğimde veya büyük maçlar olduğunda izlemeyi çok severim. Carlos Tevez,Wayne Rooney,Michael Carrick gibi isimler sağolsun küçüklüğümden beri Manchester United hayranıyım.
-                </p>
-
-            </div>
-
-            <br></br>
-            <br></br>
-
-            <div class="starwars">
-
-                <a href="https://www.imdb.com/title/tt0080684/"><img src="images/starwars2.jpeg"></a>
-
-                <p>
-                    Film ve dizi izlemeyi çok sevmem ama Star Wars serisinin yeri bende ayrıdır. Çok iyi ve çok kötü filmleri olsa da genel olarak sevdiğim ve izlemekten zevk aldığım bir seri o yüzden fotoğraf olarak da en iyi Star Wars filmini koymak istedim.
-                </p>
-
-            </div>
-            <br></br>
-            <br></br>
-
-            <div class="masatenisi">
-
-                <a href="https://www.ittf.com/"><img src="images/masatenisi2.jpg"></a>
-
-                <p>
-                    Lisanslı masa tenisi oyuncusuyum, izlemesini de oynamasını da çok severim diğer sporlar gibi aşırı efordan ziyade el göz koordinasyonu gerektiriyor olması en sevdiğim yanı.
-                </p>
-
-            </div>
+    <link href="mainstyle.css" rel="stylesheet">
+    <link href="/fontawesome-free-6.1.1-web/css/all.min.css" rel="stylesheet">
+    <title>Anasayfa</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <ul class="nav justify-content-center bg-dark">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="main.html">Hakkımda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ozgecmis.html">Özgeçmişim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sehrim.html">Şehrim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="takimim.html">Takımımız</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">İlgi Alanlarım</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">İletişim</a>
+        </li>
+      </ul>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        </div>    
-    </div>
-</section>
-<footer>
-    <ul>
-        <li><a href="mailto: https://www.eren.dinc@ogr.sakarya.edu.tr"><img src="images/gmail.png" width="10%"></a></li>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/arifiye2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Doğduğum Yer</h5>
+              <p>Merhabalar. Ben Eren Dinç. 25 Mayıs 2002 Sakarya doğumluyum ama babamın mesleğinden dolayı 5 farklı yerde yaşadım. İlkokulu Erzincan'da, ortaokulu Ankara'da, liseyi ise Sakarya'da okudum ve üniversite için de liseyi okuduğum şehir olan Sakarya'yı seçtim. Sakarya Üniversitesi'nde Bilgisayar Mühendisliği 1.Sınıf öğrencisiyim.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/manchester.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tuttuğum Takım</h5>
+              <p>Futbol maçlarını çok fazla takip etmesem de denk geldiğimde veya büyük maçlar olduğunda izlemeyi çok severim. Carlos Tevez,Wayne Rooney,Michael Carrick gibi isimler sağolsun küçüklüğümden beri Manchester United hayranıyım.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/starwars2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>En Sevdiğim Film</h5>
+              <p>Film ve dizi izlemeyi çok sevmem ama Star Wars serisinin yeri bende ayrıdır. Çok iyi ve çok kötü filmleri olsa da genel olarak sevdiğim ve izlemekten zevk aldığım bir seri o yüzden fotoğraf olarak da en iyi Star Wars filmini koymak istedim.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      <div>
+        <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+            <ul class="social">
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+             </ul>
+        </div>
+        <div class="text-center p-3">
+            Copyright © 2022 Tüm Hakları Saklıdır
+        </div>
+      </footer>
         
-        <li><a href="https://www.instagram.com/iamerndnc"><img src="images/instagram.png" width="12%"></a></li>
-        
-        <li><a href="https://www.snapchat.com/add/iamerndnc"><img src="images/snapchat.jpg" width="17%"></a></li>
-        
-        <li><a href="https://www.linkedin.com/in/eren-din%C3%A7-a31a18239"><img src="images/linkedin.png" width="22%"></a></li>
-    </ul>
-</footer> 
-</body>
+      </div>
+  </body>
 </html>

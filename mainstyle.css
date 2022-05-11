@@ -8,52 +8,17 @@
 
 body
 {
-    background-image: url(images/background.jpg)
+    background-color: #000000;
 }
 
-.container
+.nav-item
 {
-    background-position: center;
-    background-size: cover;
-    background-image: url(images/background.jpg)
+    padding-left: 50px;
 }
 
-nav
+.nav-link
 {
-    background: #00000070;
-    text-align: center;
-}
-
-nav ul
-{
-    display: inline-flex;
-    list-style: none;
-}
-
-nav ul li
-{
-    border: solid 0px;
-    border-radius: 5px;
-    width: 100%;
-    max-height: 75px;
-    margin: 50px;
-    margin-top: 0px;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 30px;
-    font-size: large;
-}
-
-nav ul li a
-{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-nav ul li:hover
-{
-    font-size: larger;
-    transition-delay: initial;
+    color: #fff;
 }
 
 .active 
@@ -61,117 +26,38 @@ nav ul li:hover
     background-color: rgba(0, 0, 0, 0.534);
 }
 
-.baslik h1
+.carousel-caption
 {
-    text-align: center;
-    color: #fff;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: auto;
-    padding: 50px;
-    font-size:xx-large
+    background:#000000da
+
 }
 
-.hakkimda img
+.text-center
 {
-    margin: 10px;
-    margin-right: 100px;
-    float: left;
-    width: 50%;
-    max-width: 500px;
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-.hakkimda p
+.social
 {
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 5%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-
-.futbol img
-{
-    margin: 10px;
-    margin-left: 80px;
-    float: right;
-    width: 40%;
-    max-width: 100%;
-    height: 310px;
-}
-
-.futbol p
-{
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-
-.starwars img
-{
-    margin: 10px;
-    margin-right: 100px;
-    float: left;
-    width: 30%;
-    max-width: 500px;
-    height: 280px;
-}
-
-.starwars p
-{
-    
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-
-.masatenisi img
-{
-    margin: 10px;
-    margin-left: 100px;
-    float: right;
-    width: 30%;
-    max-width: 500px;
-    height: 250px;
-}
-
-.masatenisi p
-{
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 90px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-
-
-
-footer
-{
-    background: #fff;
-    text-align: center;
-}
-
-footer ul
-{
-    display: inline-flex;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
 }
 
-footer ul li
+.social li
 {
-    border: solid 0px;
-    border-radius: 5px;
-    width: 100%;
-    margin: auto;
-    padding: 10px;
-    font-size: large;
+    margin: 0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.social a:hover i{
+    color: aqua;
 }
