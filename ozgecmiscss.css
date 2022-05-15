@@ -2,49 +2,22 @@
 {
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
 body
 {
-    background-position: center;
-    background-size: cover;
-    background-image: url(images/background.jpg)
+ background: #575fcf5d;
 }
 
-nav
+.nav-item
 {
-    background: #00000070;
-    text-align: center;
+    padding-left: 50px;
 }
 
-nav ul
+.nav-link
 {
-    display: inline-flex;
-    list-style: none;
-}
-
-nav ul li
-{
-    border: solid 0px;
-    border-radius: 5px;
-    width: 225px;
-    margin: 0;
-    padding: 30px;
-    font-size: large;
-}
-
-nav ul li a
-{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-nav ul li:hover
-{
-    font-size: larger;
-    transition-delay: initial;
+    color: #fff;
 }
 
 .active 
@@ -52,95 +25,63 @@ nav ul li:hover
     background-color: rgba(0, 0, 0, 0.534);
 }
 
-header h1
+header
 {
     text-align: center;
-    color: #fff;
     margin: auto;
-    padding: 50px;
+    padding: 20px;
+
 }
 
-section h4
+section
 {
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    padding: 50px;
+    margin-left: 30px;
 }
 
-.sakarya img
+.card
+{  
+    width: 19.5%;
+    max-height: 500px;
+    display: inline-flex;
+    border: solid 2px rgba(0, 0, 0, 0.329)  ;
+}
+
+.card-img-top
 {
-    float: left;
-    margin: 10px;
-    margin-right: 100px;
-    width: 500px;
-    height: 230px;
+    height: auto;
+    max-height: 140px;
+}
+
+.card-text
+{
+    color: #000;
 }
 
 article
 {
-    background: #00000054;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 90px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 
-.erzincan img
+.social
 {
-    float: right;
-    margin: 10px;
-    margin-left: 100px;
-    width: 500px;
-    height: 230px;
-}
-
-.ankara img
-{
-    float: left;
-    margin: 10px;
-    margin-right: 100px;
-    width: 500px;
-    height: 250px;
-}
-
-.lise img
-{
-    float: right;
-    margin: 10px;
-    margin-left: 100px;
-    width: 500px;
-    height: 230px;
-}
-
-.universite img
-{
-    float: left;
-    margin: 10px;
-    margin-right: 100px;
-    width: 500px;
-    height: 250px;
-}
-
-footer ul
-{
-    display: inline-flex;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
 }
 
-footer
+.social li
 {
-    background: #fff;
-    text-align: center;
+    margin: 20px;
 }
 
-footer ul li
+.social a
 {
-    border: solid 0px;
-    border-radius: 5px;
-    width: 225px;
-    margin: auto;
-    padding: 10px;
-    font-size: large;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.social a:hover i{
+    color: aqua;
 }

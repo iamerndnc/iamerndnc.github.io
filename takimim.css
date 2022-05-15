@@ -8,7 +8,7 @@
 
 body
 {
-    background-color: #74b9ff;
+    background-color: #575fcf5d;
 }
 
 .nav-item
@@ -38,24 +38,26 @@ article
     color:#fff;
 }
 
-footer ul
+.social
 {
-    display: inline-flex;
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
 }
 
-footer
+.social li
 {
-    background: #fff;
-    text-align: center;
+    margin: 20px;
 }
 
-footer ul li
+.social a
 {
-    border: solid 0px;
-    border-radius: 5px;
-    width: 100%;
-    margin: auto;
-    padding: 10px;
-    font-size: large;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.social a:hover i{
+    color: aqua;
 }
